@@ -45,7 +45,6 @@ public class Task3 {
             String tempUnit = (String) hourlyUnits.get("temperature_2m");
             String rainUnit = (String) hourlyUnits.get("rain");
 
-            // Создаём папку result, если нет
             new File("result").mkdirs();
 
             System.out.println("\n=== Задание 3: Прогноз погоды (Нижний Новгород) ===");
